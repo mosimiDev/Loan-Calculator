@@ -2,16 +2,16 @@ body{
  background-color: darkslategrey;
 }
 .userInput{
- width:50%;
+ width:30%;
  margin:10px;
  border-radius: 5px;
  border-color: lightgray;
- padding: 20px;
+ padding: 10px;
 }
 .error{
  color:red;
  font-size: 20px;
- text-align: left;
+ text-align: center;
 }
 h4{
  color:rgb(36, 34, 34);
