@@ -1,0 +1,38 @@
+body{
+ background-color: darkslategrey;
+}
+.userInput{
+ width:50%;
+ margin:10px;
+ border-radius: 5px;
+ border-color: lightgray;
+ padding: 20px;
+}
+.error{
+ color:red;
+ font-size: 20px;
+ text-align: left;
+}
+h4{
+ color:rgb(36, 34, 34);
+ font-size: 30px;
+}
+h3{
+ color:azure;
+ font-size: 30px;
+}
+label, span{
+ color: azure;
+}
+.buttonInput{
+ background-color: rgb(43, 42, 42);
+ color: beige;
+ border:none;
+ margin:15px;
+ padding: 7px 15px;
+ cursor: pointer;
+ border-radius: 5px;
+}
+.buttonInput:hover{
+ opacity: 0.8;
+}
