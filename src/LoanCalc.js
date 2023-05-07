@@ -133,7 +133,7 @@ const LoanCalc = () => {
               <input
                 type={"text"}
                 name="years"
-                placeholder="Enter a number of years... "
+                placeholder="Enter number of years... "
                 value={userInput.years}
                 onChange={handleInputChange}
                 className="userInput"

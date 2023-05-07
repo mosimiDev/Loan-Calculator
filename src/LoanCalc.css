@@ -2,7 +2,7 @@ body{
  background-color: darkslategrey;
 }
 .userInput{
- width:30%;
+ width:42%;
  height: 40px;
  margin:10px;
  margin-top: 50px;
@@ -21,11 +21,11 @@ h4{
 }
 h3{
  color:azure;
- font-size: 30px;
+ font-size: 23px;
 }
 label, span{
  color: azure;
- font-size: 25px;
+ font-size: 20px;
 }
 input::placeholder {
  color: rgb(36, 34, 34);
