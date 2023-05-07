@@ -3,7 +3,9 @@ body{
 }
 .userInput{
  width:30%;
+ height: 40px;
  margin:10px;
+ margin-top: 50px;
  border-radius: 5px;
  border-color: lightgray;
  padding: 10px;
@@ -23,15 +25,31 @@ h3{
 }
 label, span{
  color: azure;
+ font-size: 25px;
 }
+input::placeholder {
+ color: rgb(36, 34, 34);
+ font-size: 18px;
+}
+input[type=text]{
+ font-size: 20px;
+}
+input:focus {
+ color: darkslategrey;
+ outline-offset: 5px;
+}
+
 .buttonInput{
  background-color: rgb(43, 42, 42);
+ width: 200px;
  color: beige;
  border:none;
  margin:15px;
- padding: 7px 15px;
+ padding: 15px ;
+ font-size: 20px;
  cursor: pointer;
- border-radius: 5px;
+ margin-top: 25px;
+ border-radius: 10px;
 }
 .buttonInput:hover{
  opacity: 0.8;

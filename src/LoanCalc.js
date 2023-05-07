@@ -8,7 +8,7 @@ const LoanCalc = () => {
     interest: "",
     years: "",
   });
-
+  
   const [calculatedInput, setCalculatedInput] = useState({
     monthlyPayment: "",
     totalPayment: "",
@@ -182,14 +182,14 @@ const LoanCalc = () => {
               />
               <span>%</span>
             </div>
+            <input
+              value={"Refresh"}
+              type="button"
+              onClick={clearInput}
+              className="buttonInput"
+            />
           </div>
         )}
-        <input
-          value={"Refresh"}
-          type="button"
-          onClick={clearInput}
-          className="buttonInput"
-        />
       </form>
     </>
   );
